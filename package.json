@@ -1,4 +1,5 @@
 {
+  "root": "./",
   "name": "my-app",
   "version": "1.0.0",
   "description": "My Node.js App",
