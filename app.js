@@ -1,3 +1,4 @@
+
 const inputElement = document.querySelector(".input");
 const typedTextElement = document.querySelector(".typed-text");
 const pipeElement = document.querySelector(".pipe");
