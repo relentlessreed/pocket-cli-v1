@@ -1,4 +1,15 @@
-/* #splash-screen {
+.filler {
+    width: 0;
+}
+  
+.bar-end {
+    margin-left: 100%;
+}
+
+.flashing-text {
+   animation: flash 1s linear infinite;
+}
+#splash-screen {
     position: fixed;
     top: 0;
     left: 0;
@@ -12,8 +23,13 @@
     font-size: 14px;
     z-index: 1;
 }
-
-@keyframes flash {
-    0%, 50% { opacity: 1; }
-    50.01%, 100% { opacity: 0; }
-} */
+body {
+            font-family: monospace;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+           @keyframes flash {
+        0%, 50% { opacity: 1; }
+        50.01%, 100% { opacity: 0; }
+    }
